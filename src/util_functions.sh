@@ -161,7 +161,9 @@ function generate_keys() {
 # Leverages `my-avbroot-setup` to patch the OTA
 # This function does a lot of things before patching the OTA
 function patch_ota() {
-  if [[ "${INTERACTIVE_MODE}" != 'true' ]]; then
+  # Local builds generate keys as files; CI provides base64 env vars.
+  # Only decode when the key files are missing.
+  if [[ ! -f "${KEYS[AVB]}" || ! -f "${KEYS[OTA]}" || ! -f "${KEYS[CERT_OTA]}" ]]; then
     base64_decode
   fi
 

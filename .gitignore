@@ -6,9 +6,15 @@
 
 # OTA files
 *.zip
+*.csig
+/*.json
 
 # Keys and secrets
 .keys
+avb.key
+ota.key
+ota.crt
+avb_pkmd.bin
 
 # Python virtual environment
 venv
