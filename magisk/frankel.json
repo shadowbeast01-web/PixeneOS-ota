@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/pixincreate/PixeneOS/releases/download/2026092500/frankel-2026092500-magisk-v31.0-3-750c551.zip",
-    "location_csig": "https://github.com/pixincreate/PixeneOS/releases/download/2026092500/frankel-2026092500-magisk-v31.0-3-750c551.zip.csig"
+    "location_ota": "https://github.com/pixincreate/PixeneOS/releases/download/2026100200/frankel-2026100200-magisk-v31.0-3-750c551.zip",
+    "location_csig": "https://github.com/pixincreate/PixeneOS/releases/download/2026100200/frankel-2026100200-magisk-v31.0-3-750c551.zip.csig"
   }
 }
